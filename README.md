@@ -1,3 +1,13 @@
+<img width="911" height="390" alt="Screenshot 2026-04-19 at 3 02 16 PM" src="https://github.com/user-attachments/assets/3e6bf4c3-a77d-4c3c-a885-93c0c191c20f" />
+---
+<img width="884" height="937" alt="Screenshot 2026-04-19 at 3 02 06 PM" src="https://github.com/user-attachments/assets/f0e02f3a-de01-4f46-933d-55fc1dba33a8" />
+---
+<img width="913" height="753" alt="Screenshot 2026-04-19 at 3 01 39 PM" src="https://github.com/user-attachments/assets/8e6f3752-bdba-43a5-a692-0c427d2c47aa" />
+---
+<img width="945" height="631" alt="Screenshot 2026-04-19 at 3 01 21 PM" src="https://github.com/user-attachments/assets/a8ad825f-2813-4995-9f45-62de35924b09" />
+
+
+
 # MCQ Tracker
 
 A Node.js application to track multiple-choice question (MCQ) exam results, storing all data in a SQLite database. Zero npm dependencies — runs on Node.js 22's built-in SQLite module.
