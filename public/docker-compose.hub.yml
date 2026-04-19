@@ -1,0 +1,23 @@
+services:
+  mcq-tracker:
+    image: gibigbig/mcq-tracker:latest
+    container_name: mcq-tracker
+    ports:
+      - "3000:3000"
+    volumes:
+      - mcq-data:/app/data
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DB_PATH=/app/data/mcq.db
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+volumes:
+  mcq-data:
+    driver: local
